@@ -1,8 +1,9 @@
-
-
-# Para que os dados do formulario seja salvo deve criar esta tabela do banco de dados
+![alt text](https://github.com/MaxLeandro14/mustache/blob/master/assets/img/sie_print.png)
+#Theme wordpress teste
+## Para que os dados do formulario seja salvo deve criar esta tabela do banco de dados
 , segue abaixo o codigo que deve ser inserido
 
+```
 CREATE TABLE wp_formdata(
             id INT(11) NOT NULL auto_increment,
             nome VARCHAR(200) NOT NULL ,
@@ -16,4 +17,5 @@ CREATE TABLE wp_formdata(
             cidade VARCHAR(200) NOT NULL default '0',
             estado VARCHAR(50) NOT NULL,
             PRIMARY KEY (id));
+ ```
             
